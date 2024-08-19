@@ -1,6 +1,6 @@
 # limbahayuk
 deskripsi singkat aplikasi
 
-NAMA KELOMPOK ANDA
-Ketua Kelompok: Danella Zefanya Siahaan
-Anggota 1: Satama Safika
+### Kelompok 
+1. Ketua Kelompok: Danella Zefanya Siahaan
+2. Anggota: Satama Safika
