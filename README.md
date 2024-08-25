@@ -1,7 +1,29 @@
-# limbahayuk
-Sebuah platform yang platform berbasis web dan aplikasi mobile yang dirancang untuk menghubungkan individu atau perusahaan yang memiliki sisa limbah dengan mereka yang membutuhkan limbah tersebut untuk berbagai keperluan, seperti bahan baku daur ulang, kerajinan tangan, atau produk inovatif lainnya. Tujuan utama dari platform ini adalah untuk mendorong ekonomi sirkular dengan meminimalisir limbah yang berakhir di tempat pembuangan akhir, dan sebaliknya, memberikan nilai tambah pada limbah tersebut dengan menghubungkannya dengan pihak yang dapat memanfaatkannya. Aplikasi yang berperan mendorong ekonomi sirkulasi dengan meminimalisir limbah yang berakhir di tempat pembuangan akhir, dan sebaliknya juga memberikan nilai tambah pada limbah tersebut dengan menghubungkan dengan pihak yang dapat memanfaatkannya. Aplikasi ini dilengkapi dengan fitur pencarian berdasarkan nama produk, jenis, harga, lokasi penjual, fitur pengunggahan barang limbah, fitur cart untuk memilih barang limbah yang akan diambil/beli, dan fitur informasi umum lainnya.
+# ShareBite
+Aplikasi ShareBite dirancang untuk membantu mendistribusikan makanan berlebih dari toko makanan kepada organisasi atau individu yang membutuhkan, seperti panti asuhan, panti jompo, dan tempat penampungan tunawisma. Dengan menggunakan prinsip circular economy, aplikasi ini bertujuan mengurangi pemborosan makanan dan memberikan manfaat kepada komunitas. 
+Aplikasi ShareBite dilengkapi dengan fitur pendaftaran akun pemberi penerima, database makanan, jadwal pengambilan, dan announcement.
 
-### Kelompok 
-1. Ketua Kelompok : Danella Zefanya Siahaan
-2. Anggota 1 : Satama Safika
-3. Anggota 2 : Wulan Tiarahayu
+##  Teknologi
+- Bahasa Pemrograman: C#
+- Framework: Windows Presentation Foundation (WPF)
+- Database: Azure SQL Database
+- API:
+    - Azure Cognitive Services (untuk analisis gambar atau teks)
+    - CCU Weather API (untuk memeriksa kondisi cuaca yang mungkin mempengaruhi pengambilan)
+
+## Penggunaan
+1. Pendaftaran Toko
+    Masukkan informasi toko dan mulai menambahkan makanan berlebih.
+2. Pengelolaan Makanan Berlebih
+    Tambahkan, edit, atau hapus entri makanan berlebih.
+3. Pendaftaran dan Pengelolaan Penerima
+    Penerima dapat mendaftar dan menentukan kebutuhan mereka.
+4. Penjadwalan Pengambilan
+    Jadwalkan waktu pengambilan makanan dan konfirmasikan dengan penerima.
+
+### Kontak
+Jika ada pertanyaan, hubungi:
+1. Danella Zefanya Siahaan [danellazefanyasiahaan@mail.ugm.ac.id]
+2. Satama Safika [satamasafika@mail.ugm.ac.id]
+3. Wulan Tiarahayu [wulantiarahayu0903@mail.ugm.ac.id]
+
+
