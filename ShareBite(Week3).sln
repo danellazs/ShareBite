@@ -1,25 +1,172 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.7.34018.315
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShareBite(Week3)", "ShareBite(Week3)\ShareBite(Week3).csproj", "{2D3381C1-38D9-4B96-B670-AACE363D178B}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2D3381C1-38D9-4B96-B670-AACE363D178B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2D3381C1-38D9-4B96-B670-AACE363D178B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2D3381C1-38D9-4B96-B670-AACE363D178B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2D3381C1-38D9-4B96-B670-AACE363D178B}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {EE8C2B87-2BA4-4556-928C-609FFE41DE85}
-	EndGlobalSection
-EndGlobal
+using System;
+using System.Collections.Generic;
+
+namespace FoodSharingApp
+{
+    // Class User
+    public class User
+    {
+        public int UserId { get; set; }
+        public string Username { get; set; }
+        public string Password { get; set; }
+        public string Email { get; set; }
+        public string NomorHp { get; set; }
+        public string Location { get; set; }
+
+        public void Register()
+        {
+            // Registration logic here
+            Console.WriteLine($"{Username} registered.");
+        }
+
+        public void Login()
+        {
+            // Login logic here
+            Console.WriteLine($"{Username} logged in.");
+        }
+
+        public void Logout()
+        {
+            // Logout logic here
+            Console.WriteLine($"{Username} logged out.");
+        }
+    }
+
+    // Class Pemberi inheriting from User
+    public class Pemberi : User
+    {
+        public List<FoodItem> FoodItems { get; set; } = new List<FoodItem>();
+
+        public void PostFood(FoodItem foodItem)
+        {
+            FoodItems.Add(foodItem);
+            Console.WriteLine($"{foodItem.Name} posted by {Username}.");
+        }
+
+        public void ApproveRequest(Request request)
+        {
+            // Approve logic here
+            Console.WriteLine($"Request {request.RequestId} approved.");
+        }
+
+        public void SchedulePickup(Request request, DateTime schedule)
+        {
+            // Schedule logic here
+            Console.WriteLine($"Pickup scheduled for {request.FoodItem.Name} on {schedule}");
+        }
+
+        public void BroadcastMessage(string message)
+        {
+            // Broadcast logic here
+            Console.WriteLine($"{Username} broadcasted: {message}");
+        }
+    }
+
+    // Class Penerima inheriting from User
+    public class Penerima : User
+    {
+        public List<Pemberi> FollowedPemberi { get; set; } = new List<Pemberi>();
+
+        public void SearchFood(string keyword)
+        {
+            // Search logic here
+            Console.WriteLine($"Searching food by keyword: {keyword}");
+        }
+
+        public void RequestFood(FoodItem foodItem)
+        {
+            // Request logic here
+            Console.WriteLine($"{Username} requested {foodItem.Name}");
+        }
+
+        public void FollowPemberi(Pemberi pemberi)
+        {
+            FollowedPemberi.Add(pemberi);
+            Console.WriteLine($"{Username} followed {pemberi.Username}");
+        }
+
+        public void ReceiveBroadcast(string message)
+        {
+            // Logic to receive broadcast
+            Console.WriteLine($"Broadcast received: {message}");
+        }
+    }
+
+    // Class FoodItem
+    public class FoodItem
+    {
+        public int FoodId { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public int Quantity { get; set; }
+
+        public void UpdateQty(int quantity)
+        {
+            Quantity = quantity;
+            Console.WriteLine($"Quantity of {Name} updated to {Quantity}");
+        }
+    }
+
+    // Class Broadcast
+    public class Broadcast
+    {
+        public int BroadcastId { get; set; }
+        public string Message { get; set; }
+        public Pemberi Pemberi { get; set; }
+
+        public void SendToFollowers()
+        {
+            // Logic to send broadcast to followers
+            Console.WriteLine($"Broadcast {BroadcastId}: {Message} sent to followers of {Pemberi.Username}");
+        }
+    }
+
+    // Class Request
+    public class Request
+    {
+        public int RequestId { get; set; }
+        public FoodItem FoodItem { get; set; }
+        public Penerima Penerima { get; set; }
+
+        public void Approve()
+        {
+            // Logic to approve request
+            Console.WriteLine($"Request {RequestId} for {FoodItem.Name} approved.");
+        }
+
+        public void Reject()
+        {
+            // Logic to reject request
+            Console.WriteLine($"Request {RequestId} for {FoodItem.Name} rejected.");
+        }
+
+        public void SchedulePickup(DateTime schedule)
+        {
+            // Logic to schedule pickup
+            Console.WriteLine($"Pickup for {FoodItem.Name} scheduled on {schedule}");
+        }
+    }
+
+    // Example usage
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Pemberi pemberi1 = new Pemberi { Username = "Pemberi1" };
+            Penerima penerima1 = new Penerima { Username = "Penerima1" };
+
+            FoodItem food1 = new FoodItem { FoodId = 1, Name = "Apples", Description = "Fresh apples", Quantity = 10 };
+            pemberi1.PostFood(food1);
+
+            Request request1 = new Request { RequestId = 101, FoodItem = food1, Penerima = penerima1 };
+            penerima1.RequestFood(food1);
+            pemberi1.ApproveRequest(request1);
+            pemberi1.SchedulePickup(request1, DateTime.Now.AddDays(1));
+
+            Broadcast broadcast1 = new Broadcast { BroadcastId = 201, Message = "Fresh apples available!", Pemberi = pemberi1 };
+            broadcast1.SendToFollowers();
+
+            Console.ReadLine();
+        }
+    }
+}
