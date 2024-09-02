@@ -20,6 +20,9 @@ Aplikasi ShareBite dilengkapi dengan fitur pendaftaran akun pemberi penerima, da
 4. Penjadwalan Pengambilan
     Jadwalkan waktu pengambilan makanan dan konfirmasikan dengan penerima.
 
+## Class Diagram
+
+
 ### Kontak
 Jika ada pertanyaan, hubungi:
 1. Danella Zefanya Siahaan [danellazefanyasiahaan@mail.ugm.ac.id]
