@@ -1,0 +1,23 @@
+C:\Users\user\source\repos\junpro test ui\junpro test ui\bin\Debug\net8.0-windows\junpro test ui.exe
+C:\Users\user\source\repos\junpro test ui\junpro test ui\bin\Debug\net8.0-windows\junpro test ui.deps.json
+C:\Users\user\source\repos\junpro test ui\junpro test ui\bin\Debug\net8.0-windows\junpro test ui.runtimeconfig.json
+C:\Users\user\source\repos\junpro test ui\junpro test ui\bin\Debug\net8.0-windows\junpro test ui.dll
+C:\Users\user\source\repos\junpro test ui\junpro test ui\bin\Debug\net8.0-windows\junpro test ui.pdb
+C:\Users\user\source\repos\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro_test_ui.Properties.Resources.resources
+C:\Users\user\source\repos\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro test ui.csproj.GenerateResource.cache
+C:\Users\user\source\repos\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro test ui.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro test ui.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro test ui.AssemblyInfo.cs
+C:\Users\user\source\repos\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro test ui.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro test ui.dll
+C:\Users\user\source\repos\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\refint\junpro test ui.dll
+C:\Users\user\source\repos\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro test ui.pdb
+C:\Users\user\source\repos\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro test ui.genruntimeconfig.cache
+C:\Users\user\source\repos\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\ref\junpro test ui.dll
+C:\Users\user\source\repos\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro_test_ui.dashboard.resources
+C:\Users\user\source\repos\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro_test_ui.login.resources
+C:\Users\user\source\repos\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro_test_ui.register.resources
+C:\Users\user\source\repos\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro_test_ui.requestList.resources
+C:\Users\user\source\repos\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro_test_ui.buttonAcc.resources
+C:\Users\user\source\repos\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro_test_ui.foodReq.resources
+C:\Users\user\source\repos\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro_test_ui.product.resources
