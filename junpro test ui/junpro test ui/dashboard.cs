@@ -23,5 +23,19 @@ namespace junpro_test_ui
             form4.Show();
             this.Close();
         }
+
+        private void productPemberi_Click(object sender, EventArgs e)
+        {
+            productPemberi form9 = new productPemberi();
+            form9.Show();
+            this.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form1 form12 = new Form1();
+            form12.Show();
+            this.Close();
+        }
     }
 }

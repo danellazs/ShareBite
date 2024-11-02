@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "8eDngYYoApi71GWdHbOEcGjtHoL1j5iqsSDhPqPxO7E8sbArq7w2NH2LcJQCHXutU4F5FN7M709Dvv0dPYf2rA==",
+  "dgSpecHash": "XVoZZ9qpPgxP5v/5wYqBsXvsvcb3/3N7MydHVfpKeZ93KypmA/ipy3isf99RkIKKyoed3OXfi6G51xlSKWmgyw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\source\\repos\\junpro test ui\\junpro test ui\\junpro test ui.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\user\\Documents\\GitHub\\ShareBite\\junpro test ui\\junpro test ui\\junpro test ui.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\npgsql\\8.0.5\\npgsql.8.0.5.nupkg.sha512"
+  ],
   "logs": []
 }
