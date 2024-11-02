@@ -8,11 +8,11 @@ namespace junpro_test_ui
 {
     public partial class productPemberi : Form
     {
-        public productPemberi()
+       /* public productPemberi()
         {
             InitializeComponent();
             this.Load += new System.EventHandler(this.productPemberi_Load);
-        }
+        }*/
 
         private void productPost_Click(object sender, EventArgs e)
         {
@@ -54,7 +54,7 @@ namespace junpro_test_ui
 
         private void LoadData()
         {
-            DatabaseHelper dbHelper = new DatabaseHelper();
+            /*DatabaseHelper dbHelper = new DatabaseHelper();
             List<ProductItem> products = dbHelper.GetProducts();
             int x = 10, y = 10, counter = 0;
 
@@ -111,16 +111,16 @@ namespace junpro_test_ui
 
                 panel.Tag = product.ID; // Save product ID as Tag
                 panel.Click += panel_Click;
-            }
+            }*/
         }
 
         private void panel_Click(object sender, EventArgs e)
         {
-            string productID = ((Panel)sender).Tag.ToString();
-            OpenEditForm(productID);
+            /*string productID = ((Panel)sender).Tag.ToString();
+            OpenEditForm(productID);*/
         }
 
-        private void OpenEditForm(string productID)
+        /*private void OpenEditForm(string productID)
         {
             var dbHelper = new DatabaseHelper();
             ProductItem product = dbHelper.GetProductById(productID);
@@ -152,6 +152,6 @@ namespace junpro_test_ui
         private void productPemberi_Load_1(object sender, EventArgs e)
         {
 
-        }
+        }*/
     }
 }

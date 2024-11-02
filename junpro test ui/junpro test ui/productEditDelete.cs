@@ -12,7 +12,7 @@ namespace junpro_test_ui
 {
     public partial class productEditDelete : Form
     {
-        private ProductItem _product;
+        /*private ProductItem _product;
 
         public productEditDelete(ProductItem product)
         {
@@ -28,12 +28,12 @@ namespace junpro_test_ui
             txtImagePath.Text = _product.ImagePath;
             txtStock.Text = _product.Stock.ToString();
             dtpExpiredDate.Value = _product.ExpiredDate;
-        }
+        }*/
 
 
         private void btnSave_Click_1(object sender, EventArgs e)
         {
-            _product.Name = txtName.Text;
+            /*_product.Name = txtName.Text;
             _product.Description = txtDescription.Text;
             _product.ImagePath = txtImagePath.Text;
             _product.Stock = int.TryParse(txtStock.Text, out int stock) ? stock : 0;
@@ -50,12 +50,12 @@ namespace junpro_test_ui
             else
             {
                 MessageBox.Show("Data update failed.");
-            }
+            }*/
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            var confirmResult = MessageBox.Show("Apakah Anda yakin ingin menghapus produk ini?",
+            /*var confirmResult = MessageBox.Show("Apakah Anda yakin ingin menghapus produk ini?",
                                          "Konfirmasi Hapus",
                                          MessageBoxButtons.YesNo);
             if (confirmResult == DialogResult.Yes)
@@ -72,7 +72,7 @@ namespace junpro_test_ui
                 {
                     MessageBox.Show("Gagal menghapus produk. Pastikan produk ada di database."); // Pesan jika gagal
                 }
-            }
+            }*/
         }
 
         private void txtImagePath_TextChanged(object sender, EventArgs e)

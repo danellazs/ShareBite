@@ -2,7 +2,7 @@
 {
     class Account
     {
-        public string RegisterName;
+        /*public string RegisterName;
         public string Password;
         public string Email;
         public string NomorTelephone;
@@ -25,6 +25,6 @@
             {
                 return true;
             } else { return false; }
-        }
+        }*/
     }
 }

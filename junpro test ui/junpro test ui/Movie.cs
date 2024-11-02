@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 
 namespace junpro_test_ui
 {
@@ -32,4 +32,4 @@ namespace junpro_test_ui
             ExpiredDate = movie.ExpiredDate;
         }
     }
-}
+}*/

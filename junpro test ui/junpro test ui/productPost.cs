@@ -29,7 +29,7 @@ namespace junpro_test_ui
 
         // Contoh penyesuaian pada event handler
         private void btnInsert_Click(object sender, EventArgs e)
-        {
+        {/*
             // Ambil data dari input
             var productItem = new ProductItem(
                 "",
@@ -50,7 +50,7 @@ namespace junpro_test_ui
             else
             {
                 MessageBox.Show("Data insertion failed.");
-            }
+            }*/
         }
 
         private void button1_Click(object sender, EventArgs e)

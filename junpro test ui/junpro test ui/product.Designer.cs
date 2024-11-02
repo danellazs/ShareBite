@@ -39,21 +39,23 @@
             buttonMilk.FlatAppearance.MouseDownBackColor = Color.Transparent;
             buttonMilk.FlatAppearance.MouseOverBackColor = Color.Transparent;
             buttonMilk.FlatStyle = FlatStyle.Flat;
-            buttonMilk.Location = new Point(286, 553);
+            buttonMilk.Location = new Point(372, 708);
+            buttonMilk.Margin = new Padding(4);
             buttonMilk.Name = "buttonMilk";
-            buttonMilk.Size = new Size(336, 485);
+            buttonMilk.Size = new Size(437, 621);
             buttonMilk.TabIndex = 0;
             buttonMilk.UseVisualStyleBackColor = false;
             buttonMilk.Click += buttonMilk_Click;
             // 
             // product
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ControlLightLight;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(1419, 1050);
+            ClientSize = new Size(1446, 1084);
             Controls.Add(buttonMilk);
+            Margin = new Padding(4);
             Name = "product";
             Text = "Form1";
             ResumeLayout(false);

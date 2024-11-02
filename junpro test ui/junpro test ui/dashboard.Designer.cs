@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(dashboard));
             button1 = new Button();
             productPemberi = new Button();
-            button2 = new Button();
             SuspendLayout();
             // 
             // button1
@@ -44,9 +43,10 @@
             button1.FlatAppearance.MouseOverBackColor = Color.Transparent;
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Microsoft Tai Le", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button1.Location = new Point(26, 181);
+            button1.Location = new Point(34, 232);
+            button1.Margin = new Padding(4);
             button1.Name = "button1";
-            button1.Size = new Size(160, 45);
+            button1.Size = new Size(208, 58);
             button1.TabIndex = 0;
             button1.TextAlign = ContentAlignment.MiddleLeft;
             button1.UseVisualStyleBackColor = false;
@@ -59,34 +59,26 @@
             productPemberi.FlatAppearance.MouseDownBackColor = Color.Transparent;
             productPemberi.FlatAppearance.MouseOverBackColor = Color.Transparent;
             productPemberi.FlatStyle = FlatStyle.Flat;
-            productPemberi.Location = new Point(26, 136);
+            productPemberi.Location = new Point(34, 174);
+            productPemberi.Margin = new Padding(4);
             productPemberi.Name = "productPemberi";
-            productPemberi.Size = new Size(189, 39);
+            productPemberi.Size = new Size(246, 50);
             productPemberi.TabIndex = 1;
             productPemberi.UseVisualStyleBackColor = false;
             productPemberi.Click += productPemberi_Click;
             // 
-            // button2
-            // 
-            button2.Location = new Point(724, 869);
-            button2.Name = "button2";
-            button2.Size = new Size(112, 34);
-            button2.TabIndex = 2;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
-            // 
             // dashboard
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(1418, 1050);
-            Controls.Add(button2);
+            ClientSize = new Size(1437, 1344);
             Controls.Add(productPemberi);
             Controls.Add(button1);
+            Margin = new Padding(4);
             Name = "dashboard";
             Text = "Form3";
+            Load += dashboard_Load;
             ResumeLayout(false);
         }
 
@@ -94,6 +86,5 @@
 
         private Button button1;
         private Button productPemberi;
-        private Button button2;
     }
 }

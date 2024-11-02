@@ -1,4 +1,4 @@
-﻿using Microsoft.VisualBasic.Devices;
+﻿/*using Microsoft.VisualBasic.Devices;
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
@@ -120,4 +120,4 @@ namespace junpro_test_ui
             MessageBox.Show(text, "", buttons, icon);
         }
     }
-}
+}*/

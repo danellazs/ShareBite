@@ -2,7 +2,7 @@
 {
     class Giver
     {
-        public string Email;
+        /*public string Email;
         public string Password;
 
         public Giver(string email, string password)
@@ -22,6 +22,6 @@
                 return true;
             }
             else { return false; }
-        }
+        }*/
     }
 }

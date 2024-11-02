@@ -14,7 +14,7 @@ namespace junpro_test_ui
             _connectionString = ConfigurationManager.ConnectionStrings["MyDatabase"].ConnectionString;
         }
 
-        public int InsertProduct(ProductItem product)
+        /*public int InsertProduct(ProductItem product)
         {
             using (var connection = new NpgsqlConnection(_connectionString))
             {
@@ -31,10 +31,10 @@ namespace junpro_test_ui
                     return (int)command.ExecuteScalar();
                 }
             }
-        }
+        }*/
 
         // Tambahkan di DatabaseHelper.cs
-        public ProductItem GetProductById(string productId)
+        /*public ProductItem GetProductById(string productId)
         {
             using (var connection = new NpgsqlConnection(_connectionString))
             {
@@ -61,9 +61,9 @@ namespace junpro_test_ui
                 }
             }
             return null;
-        }
+        }*/
 
-        public int UpdateProduct(ProductItem product)
+        /*public int UpdateProduct(ProductItem product)
         {
             using (var connection = new NpgsqlConnection(_connectionString))
             {
@@ -81,9 +81,9 @@ namespace junpro_test_ui
                     return Convert.ToInt32(result);
                 }
             }
-        }
+        }*/
 
-        public List<ProductItem> GetProducts()
+       /* public List<ProductItem> GetProducts()
         {
             List<ProductItem> products = new List<ProductItem>();
             string query = "SELECT * FROM st_select();";
@@ -112,9 +112,9 @@ namespace junpro_test_ui
                 }
             }
             return products;
-        }
+        }*/
 
-        public int DeleteProduct(string productId)
+        /*public int DeleteProduct(string productId)
         {
             using(var connection = new NpgsqlConnection(_connectionString))
     {
@@ -135,7 +135,7 @@ namespace junpro_test_ui
                     }
                 }
             }
-        }
+        }*/
 
     }
 }

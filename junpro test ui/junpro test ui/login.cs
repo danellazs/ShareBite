@@ -21,13 +21,13 @@ namespace junpro_test_ui
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Giver giver = new Giver (tbemail.Text, tbpassword.Text);
+            /*Giver giver = new Giver (tbemail.Text, tbpassword.Text);
             if (giver.LoginGiver(giver.Email, giver.Password))
             {
                 dashboard form3 = new dashboard();
                 form3.Show();
                 this.Close();
-            }
+            }*/
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -39,6 +39,17 @@ namespace junpro_test_ui
                 form7.Show();
                 this.Close();
             }
+        }
+
+        private void create_account_Click(object sender, EventArgs e)
+        {
+            register form2 = new register();
+
+            // Menampilkan Form2
+            form2.Show();
+
+            // Menutup Form1 sepenuhnya
+            this.Close();
         }
     }
 }

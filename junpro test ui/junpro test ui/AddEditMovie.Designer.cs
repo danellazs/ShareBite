@@ -1,4 +1,4 @@
-﻿namespace junpro_test_ui
+﻿/*namespace junpro_test_ui
 {
     partial class AddEditMovie
     {
@@ -133,4 +133,4 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DateTimePicker DtpReleaseDate;
     }
-}
+}*/

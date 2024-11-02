@@ -31,11 +31,9 @@ namespace junpro_test_ui
             this.Close();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void dashboard_Load(object sender, EventArgs e)
         {
-            Form1 form12 = new Form1();
-            form12.Show();
-            this.Close();
+
         }
     }
 }

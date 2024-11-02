@@ -1,5 +1,4 @@
-﻿
-namespace junpro_test_ui
+﻿namespace junpro_test_ui
 {
     partial class productPemberi
     {
@@ -100,7 +99,7 @@ namespace junpro_test_ui
             Controls.Add(productEdit);
             Name = "productPemberi";
             Text = "Form1";
-            Load += productPemberi_Load_1;
+            /*Load += productPemberi_Load_1;*/
             ResumeLayout(false);
         }
 
@@ -116,9 +115,8 @@ namespace junpro_test_ui
 
         private void productEdit_Click(object sender, EventArgs e)
         {
-            // Contoh pengambilan produk. Sesuaikan dengan logika Anda.
-            DatabaseHelper dbHelper = new DatabaseHelper();
-            List<ProductItem> products = dbHelper.GetProducts(); // Asumsikan Anda punya metode ini.
+            /*DatabaseHelper dbHelper = new DatabaseHelper();
+            List<ProductItem> products = dbHelper.GetProducts(); 
 
             // Misalnya kita ambil produk pertama untuk diedit.
             ProductItem selectedProduct = products.FirstOrDefault();
@@ -132,7 +130,7 @@ namespace junpro_test_ui
             else
             {
                 MessageBox.Show("Tidak ada produk yang tersedia untuk diedit.");
-            }
+            }*/
         }
 
         #endregion

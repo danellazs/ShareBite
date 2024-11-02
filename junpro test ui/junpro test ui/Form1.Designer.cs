@@ -1,4 +1,4 @@
-﻿namespace junpro_test_ui
+﻿/*namespace junpro_test_ui
 {
     partial class Form1
     {
@@ -98,4 +98,4 @@
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem DeleteToolStripMenuItem;
     }
-}
+}*/
