@@ -40,7 +40,7 @@
             // 
             // button1
             // 
-            button1.BackColor = Color.Transparent;
+            button1.BackColor = Color.IndianRed;
             button1.FlatAppearance.BorderSize = 0;
             button1.FlatAppearance.MouseDownBackColor = Color.Transparent;
             button1.FlatAppearance.MouseOverBackColor = Color.Transparent;
@@ -61,9 +61,8 @@
             tbemail.Font = new Font("Microsoft Tai Le", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             tbemail.Location = new Point(471, 237);
             tbemail.Name = "tbemail";
-            tbemail.Size = new Size(494, 31);
+            tbemail.Size = new Size(494, 41);
             tbemail.TabIndex = 1;
-            /*tbemail.TextChanged += tbemail_TextChanged;*/
             // 
             // tbnomortelephone
             // 
@@ -72,7 +71,7 @@
             tbnomortelephone.Font = new Font("Microsoft Tai Le", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             tbnomortelephone.Location = new Point(471, 364);
             tbnomortelephone.Name = "tbnomortelephone";
-            tbnomortelephone.Size = new Size(494, 31);
+            tbnomortelephone.Size = new Size(494, 41);
             tbnomortelephone.TabIndex = 2;
             // 
             // tbusername
@@ -82,7 +81,7 @@
             tbusername.Font = new Font("Microsoft Tai Le", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             tbusername.Location = new Point(471, 587);
             tbusername.Name = "tbusername";
-            tbusername.Size = new Size(494, 31);
+            tbusername.Size = new Size(494, 41);
             tbusername.TabIndex = 4;
             // 
             // tbpassword
@@ -92,7 +91,7 @@
             tbpassword.Font = new Font("Microsoft Tai Le", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             tbpassword.Location = new Point(471, 710);
             tbpassword.Name = "tbpassword";
-            tbpassword.Size = new Size(494, 31);
+            tbpassword.Size = new Size(494, 41);
             tbpassword.TabIndex = 5;
             tbpassword.UseSystemPasswordChar = true;
             // 
@@ -118,7 +117,7 @@
             // 
             // register
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1374, 1050);
@@ -132,7 +131,6 @@
             Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Name = "register";
             Text = "Form1";
-            /*Load += Form1_Load_1;*/
             ResumeLayout(false);
             PerformLayout();
         }

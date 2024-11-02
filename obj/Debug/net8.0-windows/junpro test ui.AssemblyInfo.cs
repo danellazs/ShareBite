@@ -12,7 +12,7 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("junpro test ui")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c1b459d841808fffef8b81e008fab29ec1927ba7")]
 [assembly: System.Reflection.AssemblyProductAttribute("junpro test ui")]

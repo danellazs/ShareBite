@@ -56,3 +56,38 @@ C:\Users\user\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\obj\Debug
 C:\Users\user\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro test ui.csproj.CopyComplete
 C:\Users\user\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro test ui.genruntimeconfig.cache
 C:\Users\user\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\ref\junpro test ui.dll
+C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\bin\Debug\net8.0-windows\junpro test ui.exe
+C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\bin\Debug\net8.0-windows\junpro test ui.dll.config
+C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\bin\Debug\net8.0-windows\junpro test ui.deps.json
+C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\bin\Debug\net8.0-windows\junpro test ui.runtimeconfig.json
+C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\bin\Debug\net8.0-windows\junpro test ui.dll
+C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\bin\Debug\net8.0-windows\junpro test ui.pdb
+C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\bin\Debug\net8.0-windows\Npgsql.dll
+C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro test ui.csproj.AssemblyReference.cache
+C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro_test_ui.AddEditMovie.resources
+C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro_test_ui.dashboard.resources
+C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro_test_ui.foodReq.resources
+C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro_test_ui.Form1.resources
+C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro_test_ui.login.resources
+C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro_test_ui.product.resources
+C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro_test_ui.productEditDelete.resources
+C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro_test_ui.productPemberi.resources
+C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro_test_ui.productPost.resources
+C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro_test_ui.Properties.Resources.resources
+C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro_test_ui.register.resources
+C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro_test_ui.buttonAcc.resources
+C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro_test_ui.requestList.resources
+C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro test ui.csproj.GenerateResource.cache
+C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro test ui.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro test ui.AssemblyInfoInputs.cache
+C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro test ui.AssemblyInfo.cs
+C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro test ui.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro test ui.sourcelink.json
+C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro t.2D49943D.Up2Date
+C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro test ui.dll
+C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\refint\junpro test ui.dll
+C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro test ui.pdb
+C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro test ui.genruntimeconfig.cache
+C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\ref\junpro test ui.dll
