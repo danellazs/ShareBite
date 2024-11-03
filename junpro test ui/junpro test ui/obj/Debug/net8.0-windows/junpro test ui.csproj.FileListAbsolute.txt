@@ -77,7 +77,6 @@ C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\obj\Debug
 C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro_test_ui.productPost.resources
 C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro_test_ui.Properties.Resources.resources
 C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro_test_ui.register.resources
-C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro_test_ui.buttonAcc.resources
 C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro_test_ui.requestList.resources
 C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro test ui.csproj.GenerateResource.cache
 C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro test ui.GeneratedMSBuildEditorConfig.editorconfig
@@ -91,3 +90,9 @@ C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\obj\Debug
 C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro test ui.pdb
 C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro test ui.genruntimeconfig.cache
 C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\ref\junpro test ui.dll
+C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\bin\Debug\net8.0-windows\BCrypt.Net-Next.dll
+C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro_test_ui.EditgeneralSetting.resources
+C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro_test_ui.ViewgeneralSetting.resources
+C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro_test_ui..resources
+C:\Users\ASUS\Documents\GitHub\ShareBite\junpro test ui\junpro test ui\obj\Debug\net8.0-windows\junpro_test_ui.requestAcc.resources

@@ -1,30 +1,51 @@
 ﻿namespace junpro_test_ui
 {
-    class Account
+    public class Account
     {
-        /*public string RegisterName;
-        public string Password;
-        public string Email;
-        public string NomorTelephone;
-        public string Location;
+        // Atribut dengan access modifier private/protected
+        private string username;
+        private string password; // Password terenkripsi
+        protected string email;
+        protected string role;
 
-        public Account(string registerName, string password, string email, string nomorTelephone)
+        // Constructor
+        public Account(string username, string password, string email, string role)
         {
-            RegisterName = registerName;
-            Password = password;
-            Email = email;
-            NomorTelephone = nomorTelephone;
+            this.username = username;
+            this.password = password;
+            this.email = email;
+            this.role = role;
         }
 
-        public bool Register(string registerName, string password, string email, string nomorTelephone)
+        // Property untuk mengakses username (read-only)
+        public string Username
         {
-            if (RegisterName == "Ella" && Password == "haha" && Email == "ella@gmail.com" &&  NomorTelephone == "081211223344")
-            {
-                return true;
-            } else if (RegisterName == "Bena" && Password == "hihi" && Email == "bena@gmail.com" && NomorTelephone == "081299887766")
-            {
-                return true;
-            } else { return false; }
-        }*/
+            get { return username; }
+        }
+
+        // Property untuk memverifikasi password
+        public bool VerifyPassword(string inputPassword)
+        {
+            // Memverifikasi password menggunakan BCrypt
+            return BCrypt.Net.BCrypt.Verify(inputPassword, password);
+        }
+
+        // Property untuk role (read-only)
+        public string Role
+        {
+            get { return role; }
+        }
+
+        // Method untuk mengubah password
+        public void SetNewPassword(string newPassword)
+        {
+            password = BCrypt.Net.BCrypt.HashPassword(newPassword);
+        }
+
+        // Method untuk login (contoh sederhana)
+        public bool Login(string inputUsername, string inputPassword)
+        {
+            return inputUsername == username && inputPassword == password;
+        }
     }
 }

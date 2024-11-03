@@ -31,9 +31,10 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(login));
             button1 = new Button();
             button2 = new Button();
-            tbemail = new TextBox();
+            tbusername = new TextBox();
             tbpassword = new TextBox();
-            create_account = new Button();
+            btncreate_account = new Button();
+            btnlogin = new Button();
             SuspendLayout();
             // 
             // button1
@@ -68,37 +69,55 @@
             button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
-            // tbemail
+            // tbusername
             // 
-            tbemail.BackColor = Color.FromArgb(255, 192, 192);
-            tbemail.BorderStyle = BorderStyle.None;
-            tbemail.Font = new Font("Microsoft Tai Le", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            tbemail.Location = new Point(644, 590);
-            tbemail.Margin = new Padding(4);
-            tbemail.Name = "tbemail";
-            tbemail.Size = new Size(642, 41);
-            tbemail.TabIndex = 3;
+            tbusername.BackColor = Color.FromArgb(241, 244, 249);
+            tbusername.BorderStyle = BorderStyle.None;
+            tbusername.Font = new Font("Microsoft Tai Le", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            tbusername.Location = new Point(493, 456);
+            tbusername.Margin = new Padding(4);
+            tbusername.Name = "tbusername";
+            tbusername.Size = new Size(502, 41);
+            tbusername.TabIndex = 3;
             // 
             // tbpassword
             // 
             tbpassword.BackColor = Color.FromArgb(241, 244, 249);
             tbpassword.BorderStyle = BorderStyle.None;
             tbpassword.Font = new Font("Microsoft Tai Le", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            tbpassword.Location = new Point(644, 765);
+            tbpassword.Location = new Point(493, 590);
             tbpassword.Margin = new Padding(4);
             tbpassword.Name = "tbpassword";
-            tbpassword.Size = new Size(642, 41);
+            tbpassword.Size = new Size(502, 41);
             tbpassword.TabIndex = 4;
             // 
-            // create_account
+            // btncreate_account
             // 
-            create_account.Location = new Point(776, 824);
-            create_account.Name = "create_account";
-            create_account.Size = new Size(150, 46);
-            create_account.TabIndex = 5;
-            create_account.Text = "Create Account";
-            create_account.UseVisualStyleBackColor = true;
-            create_account.Click += create_account_Click;
+            btncreate_account.BackColor = Color.Transparent;
+            btncreate_account.FlatAppearance.BorderSize = 0;
+            btncreate_account.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btncreate_account.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            btncreate_account.FlatStyle = FlatStyle.Flat;
+            btncreate_account.Location = new Point(783, 811);
+            btncreate_account.Name = "btncreate_account";
+            btncreate_account.Size = new Size(150, 46);
+            btncreate_account.TabIndex = 5;
+            btncreate_account.UseVisualStyleBackColor = false;
+            btncreate_account.Click += create_account_Click;
+            // 
+            // btnlogin
+            // 
+            btnlogin.BackColor = Color.Transparent;
+            btnlogin.FlatAppearance.BorderSize = 0;
+            btnlogin.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btnlogin.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            btnlogin.FlatStyle = FlatStyle.Flat;
+            btnlogin.Location = new Point(523, 748);
+            btnlogin.Name = "btnlogin";
+            btnlogin.Size = new Size(447, 46);
+            btnlogin.TabIndex = 6;
+            btnlogin.UseVisualStyleBackColor = false;
+            btnlogin.Click += btnlogin_Click;
             // 
             // login
             // 
@@ -107,9 +126,10 @@
             AutoSize = true;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1439, 1073);
-            Controls.Add(create_account);
+            Controls.Add(btnlogin);
+            Controls.Add(btncreate_account);
             Controls.Add(tbpassword);
-            Controls.Add(tbemail);
+            Controls.Add(tbusername);
             Controls.Add(button2);
             Controls.Add(button1);
             Margin = new Padding(4);
@@ -124,8 +144,9 @@
 
         private Button button1;
         private Button button2;
-        private TextBox tbemail;
+        private TextBox tbusername;
         private TextBox tbpassword;
-        private Button create_account;
+        private Button btncreate_account;
+        private Button btnlogin;
     }
 }

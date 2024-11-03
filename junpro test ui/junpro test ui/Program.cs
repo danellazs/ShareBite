@@ -13,5 +13,10 @@ namespace junpro_test_ui
             ApplicationConfiguration.Initialize();
             Application.Run(new register());
         }
+
+        public static class UserSession
+        {
+            public static string LoggedInUsername { get; set; }
+        }
     }
 }

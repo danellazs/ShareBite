@@ -1,27 +1,30 @@
 ﻿namespace junpro_test_ui
 {
-    class Giver
+    public class Giver : Account
     {
-        /*public string Email;
-        public string Password;
+        private string location;
+        private string aboutMe;
 
-        public Giver(string email, string password)
+        // Constructor
+        public Giver(string username, string password, string email, string role, string location, string aboutMe)
+            : base(username, password, email, role)
         {
-            Email = email;
-            Password = password;
+            this.location = location;
+            this.aboutMe = aboutMe;
         }
 
-        public bool LoginGiver(string email, string password)
+        // Property untuk location
+        public string Location
         {
-            if (Email == "ella@gmail.com" && Password == "haha")
-            {
-                return true;
-            }
-            else if (Email == "bena@gmail.com" && Password == "hihi")
-            {
-                return true;
-            }
-            else { return false; }
-        }*/
+            get { return location; }
+            set { location = value; }
+        }
+
+        // Property untuk aboutMe
+        public string AboutMe
+        {
+            get { return aboutMe; }
+            set { aboutMe = value; }
+        }
     }
 }

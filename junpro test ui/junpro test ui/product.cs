@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static junpro_test_ui.Program;
 
 namespace junpro_test_ui
 {
@@ -22,6 +23,13 @@ namespace junpro_test_ui
             foodReq form6 = new foodReq();
             form6.Show();
             this.Close();
+        }
+
+        private void btngeneralSetting_Click(object sender, EventArgs e)
+        {
+            ViewgeneralSetting settingsForm = new ViewgeneralSetting(Program.UserSession.LoggedInUsername);
+            settingsForm.Show();
+            this.Hide();
         }
     }
 }

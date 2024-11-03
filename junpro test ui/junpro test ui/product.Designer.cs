@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(product));
             buttonMilk = new Button();
+            btngeneralSetting = new Button();
             SuspendLayout();
             // 
             // buttonMilk
@@ -39,13 +40,27 @@
             buttonMilk.FlatAppearance.MouseDownBackColor = Color.Transparent;
             buttonMilk.FlatAppearance.MouseOverBackColor = Color.Transparent;
             buttonMilk.FlatStyle = FlatStyle.Flat;
-            buttonMilk.Location = new Point(372, 708);
+            buttonMilk.Location = new Point(274, 538);
             buttonMilk.Margin = new Padding(4);
             buttonMilk.Name = "buttonMilk";
-            buttonMilk.Size = new Size(437, 621);
+            buttonMilk.Size = new Size(356, 518);
             buttonMilk.TabIndex = 0;
             buttonMilk.UseVisualStyleBackColor = false;
             buttonMilk.Click += buttonMilk_Click;
+            // 
+            // btngeneralSetting
+            // 
+            btngeneralSetting.BackColor = Color.Transparent;
+            btngeneralSetting.FlatAppearance.BorderSize = 0;
+            btngeneralSetting.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btngeneralSetting.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            btngeneralSetting.FlatStyle = FlatStyle.Flat;
+            btngeneralSetting.Location = new Point(27, 884);
+            btngeneralSetting.Name = "btngeneralSetting";
+            btngeneralSetting.Size = new Size(196, 46);
+            btngeneralSetting.TabIndex = 1;
+            btngeneralSetting.UseVisualStyleBackColor = false;
+            btngeneralSetting.Click += btngeneralSetting_Click;
             // 
             // product
             // 
@@ -54,6 +69,7 @@
             BackColor = SystemColors.ControlLightLight;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1446, 1084);
+            Controls.Add(btngeneralSetting);
             Controls.Add(buttonMilk);
             Margin = new Padding(4);
             Name = "product";
@@ -64,5 +80,6 @@
         #endregion
 
         private Button buttonMilk;
+        private Button btngeneralSetting;
     }
 }

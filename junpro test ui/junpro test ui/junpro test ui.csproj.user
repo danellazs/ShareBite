@@ -7,6 +7,9 @@
     <Compile Update="foodReq.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="EditgeneralSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -29,6 +32,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="requestList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ViewgeneralSetting.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

@@ -34,13 +34,16 @@
             tbnomortelephone = new TextBox();
             tbusername = new TextBox();
             tbpassword = new TextBox();
-            radioButton1 = new RadioButton();
-            radioButton2 = new RadioButton();
+            rbpemberi = new RadioButton();
+            rbpenerima = new RadioButton();
+            login = new Button();
+            role = new GroupBox();
+            role.SuspendLayout();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.BackColor = Color.IndianRed;
+            button1.BackColor = Color.Transparent;
             button1.FlatAppearance.BorderSize = 0;
             button1.FlatAppearance.MouseDownBackColor = Color.Transparent;
             button1.FlatAppearance.MouseOverBackColor = Color.Transparent;
@@ -52,6 +55,7 @@
             button1.Size = new Size(428, 51);
             button1.TabIndex = 0;
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click_1;
             // 
             // tbemail
             // 
@@ -94,25 +98,55 @@
             tbpassword.TabIndex = 5;
             tbpassword.UseSystemPasswordChar = true;
             // 
-            // radioButton1
+            // rbpemberi
             // 
-            radioButton1.BackColor = Color.Transparent;
-            radioButton1.Location = new Point(480, 473);
-            radioButton1.Name = "radioButton1";
-            radioButton1.Size = new Size(220, 40);
-            radioButton1.TabIndex = 6;
-            radioButton1.TabStop = true;
-            radioButton1.UseVisualStyleBackColor = false;
+            rbpemberi.BackColor = Color.Transparent;
+            rbpemberi.Location = new Point(36, 9);
+            rbpemberi.Name = "rbpemberi";
+            rbpemberi.Size = new Size(220, 40);
+            rbpemberi.TabIndex = 6;
+            rbpemberi.TabStop = true;
+            rbpemberi.UseVisualStyleBackColor = false;
+            rbpemberi.CheckedChanged += radioButton1_CheckedChanged;
             // 
-            // radioButton2
+            // rbpenerima
             // 
-            radioButton2.BackColor = Color.Transparent;
-            radioButton2.Location = new Point(762, 473);
-            radioButton2.Name = "radioButton2";
-            radioButton2.Size = new Size(220, 40);
-            radioButton2.TabIndex = 7;
-            radioButton2.TabStop = true;
-            radioButton2.UseVisualStyleBackColor = false;
+            rbpenerima.BackColor = Color.Transparent;
+            rbpenerima.Location = new Point(327, 9);
+            rbpenerima.Name = "rbpenerima";
+            rbpenerima.Size = new Size(220, 40);
+            rbpenerima.TabIndex = 7;
+            rbpenerima.TabStop = true;
+            rbpenerima.UseVisualStyleBackColor = false;
+            rbpenerima.CheckedChanged += rbpenerima_CheckedChanged;
+            // 
+            // login
+            // 
+            login.BackColor = Color.Transparent;
+            login.FlatAppearance.BorderSize = 0;
+            login.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            login.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            login.FlatStyle = FlatStyle.Flat;
+            login.ForeColor = Color.Transparent;
+            login.Location = new Point(803, 915);
+            login.Name = "login";
+            login.Size = new Size(66, 37);
+            login.TabIndex = 8;
+            login.Text = "Login";
+            login.UseVisualStyleBackColor = false;
+            login.Click += login_Click;
+            // 
+            // role
+            // 
+            role.BackColor = Color.Transparent;
+            role.Controls.Add(rbpemberi);
+            role.Controls.Add(rbpenerima);
+            role.Location = new Point(459, 462);
+            role.Name = "role";
+            role.Size = new Size(596, 49);
+            role.TabIndex = 9;
+            role.TabStop = false;
+            role.Enter += groupBox1_Enter;
             // 
             // register
             // 
@@ -120,8 +154,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1374, 1050);
-            Controls.Add(radioButton2);
-            Controls.Add(radioButton1);
+            Controls.Add(role);
+            Controls.Add(login);
             Controls.Add(tbpassword);
             Controls.Add(tbusername);
             Controls.Add(tbnomortelephone);
@@ -130,6 +164,7 @@
             Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Name = "register";
             Text = "Form1";
+            role.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -141,7 +176,9 @@
         private TextBox tbnomortelephone;
         private TextBox tbusername;
         private TextBox tbpassword;
-        private RadioButton radioButton1;
-        private RadioButton radioButton2;
+        private RadioButton rbpemberi;
+        private RadioButton rbpenerima;
+        private Button login;
+        private GroupBox role;
     }
 }
